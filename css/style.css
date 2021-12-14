@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@500;700&display=swap%27');
+
+.cabecalho {
+    font-family: 'Bebas Neue', cursive;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ padding-bottom: 2em;
+}
+
+.title h1 {
+    font-size:4em;
+
+
+}
+.subtitle{
+    margin-top:-50px;
+    font-size:1.5em
+}
+.fundo{
+    background-image:url(../img/Futuristic-Background-62-pictures.png);
+    width:100%;
+    height:auto;
+    background-position:center;
+	background-repeat: no-repeat;
+    }    
+
+.trabalhos{
+    width:100%;
+    padding-top:50px !important;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.container{
+    padding:4em;
+     
+    display:flex;
+    justify-content:center;
+
+   
+}
+
+.btn{
+    color:white;
+    background-color:black;
+    text-decoration: none;
+    padding: 1px 1.5em;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3em;
+    border-radius: 3em;
+}
+
+.container-cartas{
+    width: auto;
+    height: auto;
+    padding-bottom: 5em;
+    display: flex;
+    align-self: center;
+}   
+
+.card{
+	width:auto;
+    background-color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin-left: 2em;
+	margin-right:2em;
+	padding:1em 2em;
+}
+
+.icon{
+	height: auto;
+	width:200px;
+
+	}
+
+.legendas{
+	font-family: 'Bebas Neue', cursive;
+	font-size: 2em;
+	position:relative;
+	}
+
+.sobre{
+	font-family: 'Bebas Neue', cursive;
+	text-align: center;
+	margin-top: 4em;
+    font-size: 3em;
+	
+}
+.foto{
+	display: flex;
+	align-items: flex-start;
+	height:16em;
+	border-radius: 100%;
+	margin-left: 20em;	
+
+}
+
+.paragrafo{
+	font-family: 'Bebas Neue', cursive;
+	font-size: 6mm;
+	text-align: center;
+	margin-top:5em;
+	margin-right: 14em;
+	margin-left:20em;
+	margin-bottom: 10em;
+		}
+
+.main-box{
+	background-color:#171717;
+	font-family: 'Bebas Neue', cursive;
+	padding-top: 2em;
+}
+
+
+.contactos{
+	display: flex;
+	
+}
+
+
+.titulo_contactos{
+	text-align: center;
+	font-size: 2em;
+	padding-bottom:2em;
+	color:white
+		
+
+}
+
+.numero{
+	font-size: 1.5em;
+	color:white;
+	margin-left: 5em;
+}
+
+.email{
+	font-size: 1.5em;
+	color:white;
+	margin-left: 5em;
+	padding-bottom: 5em;
+}
+
+.redes_sociais{
+	display:flex;
+	flex-direction: row;
+	align-items: flex-end;
+	background-color:#171717;
+}
+
+.facebook{
+	width:100px;
+	height: 100px;
+}
+
+.box-2{
+width:100%;
+	display: flex;
+	
+}
+.box-2:nth-child(2){
+	justify-content: space-between;
+	width:25%;
+	margin-right: 5em;
+}
+
+.main-box0{
+	display:flex;
+	flex-direction: row;
+}
+
+.logos{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	align-content: center;
+	margin-left: 5%;
+
+}
+
+.perfect_pixel{
+	height: 30em;
+	display: block;
+	position: absolute;
+    right: 70%;
+	margin-bottom: 30px;
+	margin-top: 50px;
+}
+
+.hyperprice{
+		display: block;
+	position: absolute;
+    right: 42%;
+	margin-bottom: 30px;
+	margin-top: 50px;
+}
+
+.endorphine_shock{
+	margin-left: 7em;
+		display: block;
+	position: absolute;
+    right: 10%;
+	margin-bottom: 30px;
+	margin-top: 50px;
+}
+
+
+.melhores-imagens{
+	margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    flex-direction: row-reverse;
+    margin-bottom: 110px;
+  }
+	
+
+.melhores-perfectpixel{
+	height: 25em;
+}
+.melhores-hyperprice{
+	height:15em;
+	
+}
+.melhores-video{
+    display:flex;
+	
+	
+	
+	
+	
+
+    }
+div.melhores-video iframe{
+	display: block;
+	position: absolute;
+    right: 51%;
+	margin-bottom: 30px;
+	
+}
+
+div.melhores-video iframe.video_2{
+      display: block;
+	  position: absolute;
+	  left: 51%
+}
+.conteudo-imagens-linha-1{
+	display: flex;
+	justify-content: space-between;
+	
+	flex-direction: row;
+	align-self:center;
+	margin: 0 15%;
+}
+.conteudo-imagens-linha-2{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-bottom: 5%;
+	margin-left: 33%;
+
+}
+	
+.imagem-1{
+	height: 400px;
+}
+
+.imagem-2{
+	height: 400px
+}
+.imagem-3{
+	height:400px
+}
+.imagem-4{
+	height: 400px;
+	outline: #000000
+	
+}
